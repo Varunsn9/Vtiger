@@ -17,5 +17,6 @@ namespace Vtiger.Tests
             Assert.AreEqual(title, driver.Title);
             Console.WriteLine(title);
         }
+
     }
 }
