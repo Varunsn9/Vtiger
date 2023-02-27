@@ -22,7 +22,7 @@ steps:
     restoreSolution: '$(solution)'
 
 - task: DotNetCoreCLI@2
-name:'rununittest'
+  name:'rununittest'
     command: 'test'
     project:'**/*.csproj'
     configuration: '$(buildConfiguration)'
